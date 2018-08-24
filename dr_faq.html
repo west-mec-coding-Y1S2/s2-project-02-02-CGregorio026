@@ -13,6 +13,10 @@
 
     Filename: dr_faq.html
    -->
+
+    <!-- 
+       The character set allows for the stylesheets in css to read the file as a website, as well as helping the browser see what the website will be like. The title changes what the website's name it, and the link allows you to reference the css stylesheets.
+    -->
     <meta charset="utf-8">
     <title>Diane's Run FAQ</title>
     <link rel="stylesheet" href="dr_base.css">
@@ -41,10 +45,16 @@
     </header>
 
     <section>
+        <!-- 
+            Where do I start with this page... The header was given the pagetop id so the text at the bottom of the page would bring the user to the top of the page, for accessibility reasons. The image was pretty standard, being given a source, a name, and closing the tag.
+         -->
         <header id="pagetop">
             <img src="dr_logo.png" alt="Diane’s Run">
             <h1>Frequently Asked Questions</h1>
         </header>
+        <!-- 
+            This section was probably one of the most tedious and challenging of the entire project. I put anchor tags to cause the text to be read as hypertext links. I linked them to an id that I set the h2 tags to later on in the document.
+         -->
         <ol>
             <li>
                 <a href="#faq1">How do I sign up?</a>
@@ -87,7 +97,9 @@
             </li>
         </ol>
 
-
+        <!-- 
+            Here, I give the headers values to allow the links at the top of the page to send the reader to the proper header, letting them access the answers to their questions quickly. Because the headers are given the id attribute set to an faq, I can link the anchor tags above to these headers, and clicking it will send the user there quickly. The pagetop anchor tag send the user to the top of the page.
+         -->
 
         <h2 id="faq1">How do I sign up?</h2>
         <p>Go to our online form where you can enter your registration information. Remember that the registration desk is closed
